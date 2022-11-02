@@ -1,0 +1,22 @@
+footer{
+    background-color: lighten($color: black, $amount: 20%);
+    padding: 20px;
+    .container_footer{
+        padding: 10px;
+        h2{
+           color: white;
+        }
+        p{
+            color: white;
+            margin: 5px 0;
+            i{
+                margin-right: 10px;
+            }
+        }
+
+    }
+    a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
